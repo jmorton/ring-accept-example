@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo ""
+echo "= HTML:"
+curl -v -H "Accept: application/meow" "http://localhost:8080/add?x=1&y=2"
+echo ""
